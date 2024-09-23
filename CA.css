@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.slideshow-slide {
+    /* position: absolute; */
+    width: 100%;
+    opacity: 0;
+    /*transition: opacity 1s; */
+}
+
+.slideshow-slide img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Animation for sliding images */
+@keyframes slide {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    25% { opacity: 1; }
+    35% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+/* Applying animation to each slide with different delays */
+.slideshow-slide:nth-child(1) {
+    animation: slide 16s infinite;
+}
+
+.slideshow-slide:nth-child(2) {
+    animation: slide 16s infinite;
+    animation-delay: 4s;
+}
+
+.slideshow-slide:nth-child(3) {
+    animation: slide 16s infinite;
+    animation-delay: 8s;
+}
+
+.slideshow-slide:nth-child(4) {
+    animation: slide 16s infinite;
+    animation-delay: 12s;
+}

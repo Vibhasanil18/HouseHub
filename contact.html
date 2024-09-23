@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Message|HouseHub</title>
+    <!--favicon-->  <!--A favicon (short for "favorite icon") is a small image or icon associated with a particular website or web page. It appears in the browser tab, bookmarks, and address bar, helping users visually identify and distinguish your site from others. -->
+    <link rel="icon" href="./Picture/housing.gif" type="image/x-icon">
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #101010;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .container {
+            padding: 20px;
+            max-width: 600px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .send-message-form {
+            padding: 20px;
+        }
+        .send-message-form h2 {
+            margin-top: 0;
+        }
+        .send-message-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .send-message-form input,
+        .send-message-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .send-message-form button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .send-message-form button:hover {
+            background-color: #161716;
+        }
+        footer {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer span {
+            display: block;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>HouseHub</h1>
+        
+    </header>
+
+    
+
+    <!-- Send Message Form Section start -->
+    <div class="container">
+        <div class="send-message-form">
+            <h2>Send Message</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+                <!-- added home page icon -->
+                <span style="float:right;"><a href="./housing.html"class="text-light text-decoration-none bi bi-house"></a></span>
+            </form>
+        </div>
+    </div>
+    <!-- send message form section ends -->
+
+
+    <!-- Footer start-->
+    <footer>
+        <span>&copy; 2024 <b>HouseHub.</b> All rights reserved.</span>
+        
+    </footer>
+    <!-- footer ends -->
+</body>
+</html>

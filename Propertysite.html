@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover more|HouseHub</title>
+    <!--favicon-->  <!--A favicon (short for "favorite icon") is a small image or icon associated with a particular website or web page. It appears in the browser tab, bookmarks, and address bar, helping users visually identify and distinguish your site from others. -->
+    <link rel="icon" href="./Picture/housing.gif" type="image/x-icon">
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #303230;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .container {
+            padding: 40px;
+        }
+
+        /* property card styling */
+        .property-card {
+             display: inline-block;     /*inline-block for the property cards allows them to sit next to each other horizontally while maintaining the ability to have padding and margins. */
+            width: 30%;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .property-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .property-card .details {
+            padding: 15px;
+        }
+        .property-card h3 {
+            margin: 0;
+        }
+        .property-card p {
+            margin: 10px 0;
+        }
+        .property-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .property-card a:hover {
+            background-color: #545c55;
+        }
+
+        /* footer styling */
+        footer {
+            background-color: #646262;
+            padding: 20px;
+            text-align: center;
+        }
+        footer span {
+            display: block;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header start-->
+    <header>
+        <h1>HouseHub</h1>
+        
+    </header>
+    <!-- header ends -->
+
+    <!-- Properties Section -->
+
+    <!-- 1st property card starts -->
+    <div class="container">
+         <!-- added home page icon -->
+         <span style="float:left;"><a href="./housing.html"class="text-light text-decoration-none bi bi-house"></a></span>
+         <br>
+        <h2><marquee behavior="scroll" direction="left"scrollamount="15">Available Properties</marquee></h2>
+       
+        <div class="property-card">
+            <img src="./Picture/home2.jpg" alt="Property Image">
+            <div class="details">
+                <h3>Beautiful Family House</h3>
+                <p>$500,000 - 4 Beds, 3 Baths</p>
+                <a href="#">View Details</a>
+            </div>
+        </div>
+        <!-- 1st property card ends -->
+
+        <!-- 2nd property card starts -->
+        <div class="property-card">
+            <img src="./Picture/home3.jpg" alt="Property Image">
+            <div class="details">
+                <h3>Modern Apartment</h3>
+                <p>$350,000 - 2 Beds, 2 Baths</p>
+                <a href="#">View Details</a>
+            </div>
+        </div>
+        <!-- 2nd property card ends -->
+
+
+        <!-- 3rd property card starts -->
+        <div class="property-card">
+            <img src="./Picture/home4.jpg" alt="Property Image">
+            <div class="details">
+                <h3>Luxury Condo</h3>
+                <p>$750,000 - 3 Beds, 2 Baths</p>
+                <a href="#">View Details</a>
+            </div>
+        </div>
+         <!-- 3rd property card ends -->
+
+
+        <!-- 4th property card starts -->
+        <div class="property-card">
+            <img src="./Picture/home5.jpg" alt="Property Image">
+            <div class="details">
+                <h3>Cozy Cottage</h3>
+                <p>$250,000 - 2 Beds, 1 Bath</p>
+                <a href="#">View Details</a>
+            </div>
+        </div>
+         <!-- 4th property card ends -->
+
+
+        <!-- 5th property card starts -->
+        <div class="property-card">
+            <img src="./Picture/home6.jpg" alt="Property Image">
+            <div class="details">
+                <h3>Spacious Villa</h3>
+                <p>$1,200,000 - 5 Beds, 4 Baths</p>
+                <a href="#">View Details</a>
+            </div>
+        </div>
+         <!-- 5th property card ends -->
+
+
+        <!-- 6th property card starts -->
+        <div class="property-card">
+            <img src="./Picture/home7.jpg" alt="Property Image">
+            <div class="details">
+                <h3>Charming Townhouse</h3>
+                <p>$400,000 - 3 Beds, 2 Baths</p>
+                <a href="#">View Details</a>
+            </div>
+        </div>
+    </div>
+     <!-- 6th property card ends -->
+
+
+    <!-- Footer start-->
+    <footer>
+        <span>&copy; 2024 <b>HouseHub.</b> All rights reserved.</span>
+        
+    </footer>
+    <!-- footer ends -->
+</body>
+</html>
