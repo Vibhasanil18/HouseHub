@@ -1,2 +1,2 @@
 # HouseHub
-A responsive web application that centralizes house-related tasks, built with HTML, CSS, and Bootstrap. The project features a user-friendly interface and optimized layouts for various devices, utilizing Bootstrap’s grid system for seamless responsiveness.
+A responsive web application designed to centralize various house-related tasks, such as managing home services, keeping track of maintenance, or organizing daily activities. Built using HTML, CSS, and Bootstrap, the project ensures a clean, user-friendly interface with optimized layouts for various screen sizes and devices. The platform leverages Bootstrap's grid system for smooth responsiveness and features reusable components to enhance development efficiency and scalability.
